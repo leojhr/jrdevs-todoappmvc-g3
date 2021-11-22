@@ -5,4 +5,6 @@ const router = Router();
 
 router.get('/login', controllerLogin.authLogin);
 
+router.get('/', controllerLogin.home);
+
 module.exports = router;
